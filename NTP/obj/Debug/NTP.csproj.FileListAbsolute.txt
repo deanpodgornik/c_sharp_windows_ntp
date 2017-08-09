@@ -4,3 +4,10 @@ F:\WORK\PRIVAT\miranda\NTP\NTP\NTP\bin\Debug\NTP.pdb
 F:\WORK\PRIVAT\miranda\NTP\NTP\NTP\obj\Debug\NTP.csprojResolveAssemblyReference.cache
 F:\WORK\PRIVAT\miranda\NTP\NTP\NTP\obj\Debug\NTP.exe
 F:\WORK\PRIVAT\miranda\NTP\NTP\NTP\obj\Debug\NTP.pdb
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe.config
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.pdb
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\GuerrillaNtp.dll
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.exe
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.pdb
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.csprojResolveAssemblyReference.cache
