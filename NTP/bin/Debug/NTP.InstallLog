@@ -1,0 +1,202 @@
+﻿Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service BS.Retail.Proxy...
+Creating EventLog source BS.Retail.Proxy in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+   logtoconsole = 
+Restoring event log to previous state for source BS.Retail.Proxy.
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service BS.Retail.Proxy...
+Creating EventLog source BS.Retail.Proxy in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+   logtoconsole = 
+Restoring event log to previous state for source BS.Retail.Proxy.
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Removing EventLog source BS.Retail.Proxy.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   logtoconsole = 
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service BS.Retail.Proxy...
+Creating EventLog source BS.Retail.Proxy in log Application...
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service BS.Retail.Proxy...
+Creating EventLog source BS.Retail.Proxy in log Application...
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service BS.Retail.Proxy...
+Creating EventLog source BS.Retail.Proxy in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+   logtoconsole = 
+Restoring event log to previous state for source BS.Retail.Proxy.
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service BS.Retail.Proxy...
+Creating EventLog source BS.Retail.Proxy in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+   logtoconsole = 
+Restoring event log to previous state for source BS.Retail.Proxy.
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Removing EventLog source BS.Retail.Proxy.
+Service BS.Retail.Proxy is being removed from the system...
+Service BS.Retail.Proxy was successfully removed from the system.
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Removing EventLog source deanpodgornik.NTP.
+Warning: The source deanpodgornik.NTP is not registered on the local machine.
+Service deanpodgornik.NTP is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   logtoconsole = 
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service deanpodgornik.NTP...
+Service deanpodgornik.NTP has been successfully installed.
+Creating EventLog source deanpodgornik.NTP in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Committing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+   logtoconsole = 
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly.
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   logtoconsole = 
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly.
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly.
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Removing EventLog source BS.Retail.Proxy.
+Warning: The source BS.Retail.Proxy is not registered on the local machine.
+Service BS.Retail.Proxy is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   logtoconsole = 
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Removing EventLog source deanpodgornik.NTP.
+Service deanpodgornik.NTP is being removed from the system...
+Service deanpodgornik.NTP was successfully removed from the system.
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service deanpodgornik.NTP...
+Service deanpodgornik.NTP has been successfully installed.
+Creating EventLog source deanpodgornik.NTP in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Committing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+   logtoconsole = 

@@ -26,9 +26,18 @@ namespace NTP {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("pool.ntp.org")]
-        public string NTPServer {
+        public string NTP_Server {
             get {
-                return ((string)(this["NTPServer"]));
+                return ((string)(this["NTP_Server"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2")]
+        public int UTC_Offset {
+            get {
+                return ((int)(this["UTC_Offset"]));
             }
         }
     }
