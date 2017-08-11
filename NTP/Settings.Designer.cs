@@ -58,5 +58,17 @@ namespace NTP {
                 return ((bool)(this["Log_Active"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("F:\\WORK\\PRIVAT\\miranda\\NTP\\NTP\\bin\\Release\\NTP.log")]
+        public string Log_Filepath {
+            get {
+                return ((string)(this["Log_Filepath"]));
+            }
+            set {
+                this["Log_Filepath"] = value;
+            }
+        }
     }
 }

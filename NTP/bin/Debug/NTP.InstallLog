@@ -207,3 +207,21 @@ Affected parameters are:
    assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
 Installing service deanpodgornik.NTP...
 Creating EventLog source deanpodgornik.NTP in log Application...
+Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Removing EventLog source deanpodgornik.NTP.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog.
+Rolling back assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   logtoconsole = 
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Restoring event log to previous state for source deanpodgornik.NTP.

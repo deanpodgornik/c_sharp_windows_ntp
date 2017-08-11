@@ -14,5 +14,8 @@
     <Setting Name="Log_Active" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">True</Value>
     </Setting>
+    <Setting Name="Log_Filepath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.log</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

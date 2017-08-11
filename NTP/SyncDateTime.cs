@@ -14,8 +14,6 @@ namespace NTP
     {
         public static String serviceName = "deanpodgornik.NTP";
 
-        const String LOG_FILENAME = "NTP.log";
-
         public SyncDateTime()
         {
             
@@ -109,17 +107,25 @@ namespace NTP
                 this.Log("Start setting time");
                 setTime(currentTime.Hour + ":" + currentTime.Minute);
                 DateTime dt = DateTime.Now;
-                this.Log("System time: " + dt.Hour + ":" + dt.Minute);
                 
                 //setting date
                 this.Log("Start setting date");
                 setDate(currentTime.Day + "-" + currentTime.Month + "-" + currentTime.Year);
-                dt = DateTime.Now;
-                this.Log("System date: " + dt.Year + "-" + dt.Month + "-" + dt.Day);
-
+                
+                //retrieve the new time (wait 2s to be applied)
+                var t = Task.Run(() => {
+                    //wait for 2s                    
+                    System.Threading.Thread.Sleep(2000);
+                }).ContinueWith((param) => {
+                    dt = DateTime.Now;
+                    this.Log("System time: " + dt.Hour + ":" + dt.Minute);
+                    this.Log("System date: " + dt.Year + "-" + dt.Month + "-" + dt.Day);
+                    this.Log("Done");
+                });
+                
                 //exit the service
-                this.Log("Stopping the service");
-                this.Stop();
+                //this.Log("Stopping the service");
+                //this.Stop();
             }
             catch
             {
@@ -143,7 +149,7 @@ namespace NTP
         public void Log(String content) {
             if (Settings.Default.Log_Active){
                 DateTime dt = DateTime.Now;
-                System.IO.File.AppendAllText(LOG_FILENAME, dt.ToString() + ": " + content + "\n");
+                System.IO.File.AppendAllText(Settings.Default.Log_Filepath, dt.ToString() + ": " + content + "\n");
             }
         }
 
@@ -154,7 +160,7 @@ namespace NTP
         {
             if (Settings.Default.Log_Active)
             {
-                System.IO.File.WriteAllText(LOG_FILENAME,"");
+                System.IO.File.WriteAllText(Settings.Default.Log_Filepath, "");
             }
         }
 
