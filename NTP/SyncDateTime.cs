@@ -14,6 +14,8 @@ namespace NTP
     {
         public static String serviceName = "deanpodgornik.NTP";
 
+        const String LOG_FILENAME = "NTP.log";
+
         public SyncDateTime()
         {
             
@@ -68,10 +70,12 @@ namespace NTP
         /// <summary>
         /// Retrieve the current time from a NTP service
         /// </summary>
-        static DateTime retrieveCurrentTime()
+        public DateTime retrieveCurrentTime()
         {
             //setTime("10:10");
             //setDate("01.02.2017");
+
+            this.Log("Start retrieving time");
 
             // perform only one query to get the offset
             TimeSpan offset;
@@ -97,28 +101,60 @@ namespace NTP
             {
                 //on start
                 var currentTime = retrieveCurrentTime();
+                this.Log("Time and Date retrieved: "+ currentTime.Day + "-" + currentTime.Month + "-" + currentTime.Year + " " + currentTime.Hour + ":" + currentTime.Minute);
 
                 //time retrieved successfully
 
                 //setting time
+                this.Log("Start setting time");
                 setTime(currentTime.Hour + ":" + currentTime.Minute);
+                DateTime dt = DateTime.Now;
+                this.Log("System time: " + dt.Hour + ":" + dt.Minute);
+                
                 //setting date
+                this.Log("Start setting date");
                 setDate(currentTime.Day + "-" + currentTime.Month + "-" + currentTime.Year);
+                dt = DateTime.Now;
+                this.Log("System date: " + dt.Year + "-" + dt.Month + "-" + dt.Day);
 
                 //exit the service
+                this.Log("Stopping the service");
                 this.Stop();
             }
             catch
             {
                 //time could not be retrieved => wait some time and retry again
-                
+                this.Log("Something went wrong => wait for 10s and try again");
                 var t = Task.Run(() => {
-                    //wait for 10s
+                    //wait for 10s                    
                     System.Threading.Thread.Sleep(10000);
                 }).ContinueWith((param) => {
                     //try again (on the UI thread)
+                    this.Log("Trying again");
                     this.performSync();
                 });
+            }
+        }
+
+        /// <summary>
+        /// Write the content to the log file. First it will check if the logging in enabled in the config file
+        /// </summary>
+        /// <param name="content">Content of the file</param>
+        public void Log(String content) {
+            if (Settings.Default.Log_Active){
+                DateTime dt = DateTime.Now;
+                System.IO.File.AppendAllText(LOG_FILENAME, dt.ToString() + ": " + content + "\n");
+            }
+        }
+
+        /// <summary>
+        /// Clear the content of the LOG file
+        /// </summary>
+        public void ClearLog()
+        {
+            if (Settings.Default.Log_Active)
+            {
+                System.IO.File.WriteAllText(LOG_FILENAME,"");
             }
         }
 
@@ -128,8 +164,20 @@ namespace NTP
         /// <param name="args"></param>
         protected override void OnStart(string[] args)
         {
-            this.performSync();
+            //clear the content of the log file first
+            this.ClearLog();
+            this.Log("Service started");
 
+            //apply the startup delay (defaul 20s)
+            this.Log("waiting for the startup delay " + Settings.Default.Startup_Delay + "ms");
+            var t = Task.Run(() => {
+                //wait for 10s
+                System.Threading.Thread.Sleep(Settings.Default.Startup_Delay);
+            }).ContinueWith((param) => {
+                //try again (on the UI thread)
+                this.Log("Starting the sync process");
+                this.performSync();
+            });
         }
 
         protected override void OnStop()

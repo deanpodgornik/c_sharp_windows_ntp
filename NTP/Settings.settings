@@ -8,5 +8,11 @@
     <Setting Name="UTC_Offset" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">2</Value>
     </Setting>
+    <Setting Name="Startup_Delay" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
+    <Setting Name="Log_Active" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

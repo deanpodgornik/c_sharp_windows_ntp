@@ -1,0 +1,24 @@
+﻿Uninstalling assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe'.
+Affected parameters are:
+   u = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe
+Removing EventLog source deanpodgornik.NTP.
+Service deanpodgornik.NTP is being removed from the system...
+Service deanpodgornik.NTP was successfully removed from the system.
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe
+Installing service deanpodgornik.NTP...
+Service deanpodgornik.NTP has been successfully installed.
+Creating EventLog source deanpodgornik.NTP in log Application...
+See the contents of the log file for the F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe assembly's progress.
+The file is located at F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.InstallLog.
+Committing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe
+   logtoconsole = 

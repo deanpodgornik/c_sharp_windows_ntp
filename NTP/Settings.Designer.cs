@@ -40,5 +40,23 @@ namespace NTP {
                 return ((int)(this["UTC_Offset"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("20000")]
+        public int Startup_Delay {
+            get {
+                return ((int)(this["Startup_Delay"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool Log_Active {
+            get {
+                return ((bool)(this["Log_Active"]));
+            }
+        }
     }
 }

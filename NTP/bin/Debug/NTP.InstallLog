@@ -200,3 +200,10 @@ Affected parameters are:
    logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
    assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
    logtoconsole = 
+Installing assembly 'F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe'.
+Affected parameters are:
+   i = 
+   logfile = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.InstallLog
+   assemblypath = F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Debug\NTP.exe
+Installing service deanpodgornik.NTP...
+Creating EventLog source deanpodgornik.NTP in log Application...

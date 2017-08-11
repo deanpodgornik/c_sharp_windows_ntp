@@ -12,3 +12,4 @@ F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.exe
 F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.pdb
 F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.ProjectInstaller.resources
 F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.csproj.GenerateResource.Cache
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Debug\NTP.csprojResolveAssemblyReference.cache

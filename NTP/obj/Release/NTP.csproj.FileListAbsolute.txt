@@ -1,0 +1,8 @@
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe.config
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.exe
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\NTP.pdb
+F:\WORK\PRIVAT\miranda\NTP\NTP\bin\Release\GuerrillaNtp.dll
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Release\NTP.ProjectInstaller.resources
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Release\NTP.csproj.GenerateResource.Cache
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Release\NTP.exe
+F:\WORK\PRIVAT\miranda\NTP\NTP\obj\Release\NTP.pdb
